@@ -3,10 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* font-family: 'Roboto', sans-serif;*/
 
-h1#cons {
-    text-align: center;
-}
-
 * {
     margin-left: auto;
     margin-right: auto;
@@ -19,6 +15,7 @@ body {
 
 header#cabecalho {
     background-color: #1c1c1c;
+    border-bottom: 2px solid #ffffff;
 }
 
 img#logo {
@@ -49,4 +46,13 @@ nav#menu a {
 
 nav#menu a:hover {
     color: rgb(255, 29, 59);
+}
+
+div#bvdas {
+    background-image: url(../img/historias.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    border-bottom: 2px solid #794ac0;
+    background-color: #1c1c1c;
 }
