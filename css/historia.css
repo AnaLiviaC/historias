@@ -56,3 +56,35 @@ div#bvdas {
     border-bottom: 2px solid #794ac0;
     background-color: #1c1c1c;
 }
+
+div.hist {
+    background-color: #794ac0;
+    width: 411px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.hist a {
+    color: white;
+    width: 400px;
+}
+
+div.hist h2{
+    padding: 5px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+div.hist p {
+    color: white;
+    padding: 5px;
+    margin-top: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 400px;
+    text-align: justify;
+}
