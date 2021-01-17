@@ -63,6 +63,7 @@ div.hist {
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
     border: 1px solid black;
+    border-radius: 3px;
 }
 
 div.hist a {
@@ -96,4 +97,27 @@ div.hist p {
 div.hist span {
     color: rgb(255, 0, 0);
     font-weight: bolder;
+}
+
+footer#rodape {
+    border-top: 1px solid black;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+}
+
+footer#rodape p {
+    padding: 2px;
+    margin: 5px;
+}
+
+footer#rodape a {
+    color: #db1c48;
+}
+
+footer#rodape img {
+    width: 25px;
+    margin: 0px;
 }
