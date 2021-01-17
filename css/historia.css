@@ -59,26 +59,25 @@ div#bvdas {
 
 div.hist {
     background-color: #31245c;
-    width: 422px;
+    width: 371px;
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
+    border: 1px solid black;
 }
 
 div.hist a {
     color: white;
-    width: 400px;
+    width: auto;
 }
 
 div.hist img {
-    width: 422px;
+    width: 371px;
     margin:0px;
 }
 
 div.hist h2{
     padding: 10px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    width: 400px;
+    width: 350px;
     text-align: center;
     margin-bottom: 0px;
     margin-top: 5px;
@@ -89,10 +88,7 @@ div.hist p {
     color: white;
     padding: 10px;
     margin-top: 0px;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    width: 400px;
+    width: 350px;
     text-align: justify;
     text-indent: 10px;
 }
