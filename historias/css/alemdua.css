@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif;*/
+
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div#tudo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header#cabecalho {
+    background-color: #1c1c1c;
+    border-bottom: 2px solid #ffffff;
+}
+
+img#logo {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+
+nav#menu ol {
+    margin: 0px;
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav#menu a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+}
+
+nav#menu a:hover {
+    color: rgb(255, 29, 59);
+}
+
+div#tema p {
+    color: black;
+    font-weight: bolder;
+}
+
+div#tema input#claro {
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+div#tema input#escuro {
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #1c1c1c;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
