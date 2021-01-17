@@ -62,6 +62,7 @@ div.hist {
     width: 345px;
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
+    margin-bottom: 20px;
     border: 1px solid black;
     border-radius: 3px;
 }
