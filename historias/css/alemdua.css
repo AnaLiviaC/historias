@@ -75,3 +75,39 @@ div#tema input#escuro {
     border: 2px solid gray;
     border-radius: 10px;
 }
+
+div#hist {
+    width: 75%;
+}
+
+div#hist h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+div#hist p {
+    text-align: justify;
+    text-indent: 10px;
+}
+
+div#hist img {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    width: 85%;
+}
+
+footer#rodape {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    border-top: 2px solid black;
+}
+
+footer#rodape a {
+    color: #ffffff;
+    font-weight: bold;
+}

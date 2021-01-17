@@ -99,3 +99,17 @@ div.hist span {
     color: rgb(255, 0, 0);
     font-weight: bolder;
 }
+
+footer#rodape {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    border-top: 2px solid black;
+}
+
+footer#rodape a {
+    color: #ffffff;
+    font-weight: bold;
+}
