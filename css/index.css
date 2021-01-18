@@ -3,10 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* font-family: 'Roboto', sans-serif;*/
 
-h1#cons {
-    text-align: center;
-}
-
 * {
     margin-left: auto;
     margin-right: auto;
@@ -14,30 +10,39 @@ h1#cons {
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header#cabecalho {
+    padding: 5px;
     background-color: #1c1c1c;
 }
 
-img#logo {
+div#divlogo {
+    width: 80px;
+}
+
+div#divlogo img#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+div#list {
     position: absolute;
-    top: 7px;
-    left: 5px;
+    top: 5px;
 }
 
 nav#menu ol {
     margin: 0px;
     list-style: none;
-    margin-left: 50px;
+    padding-left: 0px;
 }
 
 nav#menu li {
     display: inline-block;
     padding: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 nav#menu a {
@@ -48,7 +53,9 @@ nav#menu a {
 }
 
 nav#menu a:hover {
+    transition: 0.5s;
     color: rgb(255, 29, 59);
+    text-decoration: underline;
 }
 
 footer#rodape {
