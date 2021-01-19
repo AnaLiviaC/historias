@@ -14,3 +14,11 @@ body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
+div#bvdas {
+    background-image: url(../img/index.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    background-color: #1c1c1c;
+}
