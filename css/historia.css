@@ -4,48 +4,15 @@
 /* font-family: 'Roboto', sans-serif;*/
 
 * {
+    padding: 0px;
+    margin: 0px;
     margin-left: auto;
     margin-right: auto;
 }
 
 body {
-    margin: 0px;
-    font-family: Arial, sans-serif;
-}
-
-header#cabecalho {
-    background-color: #1c1c1c;
-    border-bottom: 2px solid #ffffff;
-}
-
-img#logo {
-    position: absolute;
-    top: 7px;
-    left: 5px;
-}
-
-nav#menu ol {
-    margin: 0px;
-    list-style: none;
-    margin-left: 50px;
-}
-
-nav#menu li {
-    display: inline-block;
-    padding: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-nav#menu a {
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: white;
-    font-size: 14pt;
-}
-
-nav#menu a:hover {
-    color: rgb(255, 29, 59);
+    background-color: white;
 }
 
 div#bvdas {
@@ -98,18 +65,4 @@ div.hist p {
 div.hist span {
     color: rgb(255, 0, 0);
     font-weight: bolder;
-}
-
-footer#rodape {
-    background-color: rgb(53, 53, 53);
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 10px;
-    border-top: 2px solid black;
-}
-
-footer#rodape a {
-    color: #ffffff;
-    font-weight: bold;
 }

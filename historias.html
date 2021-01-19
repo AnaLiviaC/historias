@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/historia.css">
+    <link rel="stylesheet" href="./css/menu.css">
     <script src="./js/index.js"></script>
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Histórias</title>
 </head>
 <body>
-    <div>
-        <header id="cabecalho">
-            <nav id="menu">
-                <a href="./index.html"><img id="logo" src="./img/livro.png" alt=""></a>
-                <ol>
-                    <li><a href="./historias.html">Histórias</a></li>
-                    <li><a href="./sobre.html">Sobre</a></li>
-                </ol>
-            </nav>
-        </header>
+    <div id="menu">
+        <input type="checkbox" id="chec">
+        <label for="chec">
+            <img src="./img/menu.png" id="menui">
+        </label>
+        <nav>
+            <ul>
+                <li><a href="./index.html" class="hmenu">Início</a></li>
+                <li><a href="./historias.html" class="hmenu">Histórias</a></li>
+                <li><a href="./sobre.html" class="hmenu">Sobre</a></li>
+            </ul>
+        </nav>
+        <div id="logod">
+            <a href="./index.html"><img src="./img/logo.png" id="logo"></a>
+        </div>
     </div>
     <div id="bvdas">
     </div>

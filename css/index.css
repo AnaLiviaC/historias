@@ -4,97 +4,13 @@
 /* font-family: 'Roboto', sans-serif;*/
 
 * {
-    padding: 0px;
     margin: 0px;
-}
-
-body{
-    font-family: 'Robot', sans-serif;
-    background-color: white;
-}
-
-a.hmenu {
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 20px 5px;
-    background-color: #1c1c1c;;
-}
-
-a.hmenu:hover {
-    transition: .3s;
-    background-color: rgb(255, 0, 64)
-}
-
-ul {
-    list-style: none;
-    position: absolute;
-    top: 70px;
-    width: 100%;
-}
-
-li {
-    border-bottom: 1px solid white;
-}
-
-img {
-    width: 40px;
-}
-
-input[type="checkbox"] {
-    display: none;
-}
-
-input[type="checkbox"]:checked ~ nav {
-    transform: translateX(350px);
-}
-
-nav {
-    border-right: 1px solid white;
-    background-color: #1c1c1c;
-    width: 270px;
-    height: 100%;
-    left: -350px;
-    position: absolute;
-    transition: all 0.5s;
-}
-
-label {
-    padding: 15px;
-    position: absolute;
-    z-index: 1;
-}
-
-div#logod {
-    width: 50%;
+    padding: 0px;
     margin-left: auto;
     margin-right: auto;
 }
 
-div#logod img#logo {
-    width: 60px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div#menu {
-    border-bottom: 1px solid white;
-    background-color: #1c1c1c;
-}
-
-footer#rodape {
-    background-color: rgb(53, 53, 53);
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 10px;
-    border-top: 2px solid black;
-}
-
-footer#rodape a {
-    color: #ffffff;
-    font-weight: bold;
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
