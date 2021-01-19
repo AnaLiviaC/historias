@@ -4,46 +4,85 @@
 /* font-family: 'Roboto', sans-serif;*/
 
 * {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Robot', sans-serif;
+    background-color: white;
+}
+
+a.hmenu {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 5px;
+    background-color: #1c1c1c;;
+}
+
+a.hmenu:hover {
+    transition: .3s;
+    background-color: rgb(255, 0, 64)
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+}
+
+li {
+    border-bottom: 1px solid white;
+}
+
+img {
+    width: 40px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(350px);
+}
+
+nav {
+    border-right: 1px solid white;
+    background-color: #1c1c1c;
+    width: 270px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+div#logod {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
-body {
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+div#logod img#logo {
+    width: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-header#cabecalho {
+div#menu {
+    border-bottom: 1px solid white;
     background-color: #1c1c1c;
-    padding: 7px;
-}
-
-div#divlogo img#logo {
-    float: right;
-}
-
-nav#menu ol {
-    margin: 0px;
-    list-style: none;
-    padding-left: 0px;
-}
-
-nav#menu li {
-    display: inline-block;
-    padding: 8px;
-}
-
-nav#menu a {
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: white;
-    font-size: 14pt;
-}
-
-nav#menu a:hover {
-    transition: 0.5s;
-    color: rgb(255, 29, 59);
-    text-decoration: underline;
 }
 
 footer#rodape {

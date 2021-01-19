@@ -1,3 +1,4 @@
+/* Histórias */
 function escuro() {
     var tescuro = window.document.getElementById('corpo')
     var pescuro = window.document.getElementById('ptheme')
