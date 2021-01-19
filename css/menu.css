@@ -17,6 +17,8 @@ a.hmenu:hover {
 }
 
 ul {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
     position: absolute;
     top: 70px;
@@ -24,10 +26,12 @@ ul {
 }
 
 li {
+    margin: 0px;
+    padding: 0px;
     border-bottom: 1px solid white;
 }
 
-img {
+img#menui {
     width: 40px;
 }
 
